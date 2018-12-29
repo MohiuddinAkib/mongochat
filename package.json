@@ -1,0 +1,25 @@
+{
+  "name": "mongochat",
+  "version": "1.0.0",
+  "description": "A chat app with mongoDB, node.js and socket.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "@powershell -Command $env:DEBUG='app:*'; nodemon app"
+  },
+  "keywords": [
+    "socket.io",
+    "mongoDB",
+    "express",
+    "node.js"
+  ],
+  "author": "Mohammad mohiuddin mostafa kamal akib <mohiuddinmostafakamal@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "mongoose": "^5.4.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
